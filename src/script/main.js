@@ -20,19 +20,7 @@ jQuery(window).on('scroll',function(){
     addClassIfVisible('.fifthBlock', 'option fadeInUp animated');
 });
 
-$(window).on('load scroll', function () {
-    var scrolled = $(this).scrollTop();
-    // $('.bg-header-img img').css({
-    //     'transform': 'translate3d(0, ' + -(scrolled * -0.1) + 'px, 0)'
-    // //     //     'opacity': 1 - scrolled / 640
-    // });
-    $('.bg-header').css({'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)',"opacity":1 - scrolled / 1200}) ;// parallax (25% scroll rate)
-    // $('#catcher-clip').css('opacity',1 - scrolled / 1200);
-    // $('.bg-header-content-bottom').css({
-    //     'transform': 'translate3d(0, ' + -(scrolled * -0.1) + 'px, 0)'
-    //
-    // })
-});
+
 
 
 

@@ -12,6 +12,7 @@
   border-collapse: collapse;
   .row{
     .main-content{
+      position: relative;
       &-title{
         text-align: center;
         position: relative;
@@ -27,6 +28,7 @@
           color: #fff;
           padding-left: 25%;
           margin: 0;
+          font-family:GrafolitaScriptMedium;
         }
         &-logo{
           position: absolute;
@@ -56,6 +58,7 @@
               color: #f2eee2;
               margin-bottom:19px;
               display: inline-block;
+              font-family:SansNav;
             }
             &-size{
               display: inline-block;
@@ -63,11 +66,13 @@
               color: #fff;
               font-weight:bolder;
               margin-left:10px;
+              font-family: SansNav;
             }
             &-main{
-              font-size: 13px;
+              font-size: 14px;
               color: #f2eee2;
               display: block;
+              font-family: SansNav;
             }
           }
         }
@@ -86,17 +91,20 @@
       color: #f2eee2;
       margin-bottom:19px;
       margin-right:10px;
+      font-family:SansNav;
     }
     &-size{
       display: inline-block;
       font-size: 21px;
       color: #fff;
       font-weight: bolder;
+      font-family:SansNav;
     }
     &-main{
       display: block;
-      font-size: 13px;
+      font-size: 14px;
       color: #f2eee2;
+      font-family:SansNav;
     }
   }
 }
@@ -127,6 +135,7 @@
              &-text{
                font-size: 21px;
                color: white;
+               font-family:SansNav;
              }
              &-img{
                width:100%;
@@ -134,9 +143,10 @@
              &-list{
                padding: 0;
                &-item{
-                 font-size: 17px;
+                 font-size: 15px;
                  color: white;
                  text-align: left;
+                 font-family:SansNav;
                }
              }
            }
@@ -147,9 +157,9 @@
 .lastBlockOrnament{
   display: inline-block;
   position: absolute;
-  width: 35%;
-  bottom: -40.8%;
-  left: 34%;
+  width: 15%;
+  bottom: -1.4%;
+  left: 69%;
 }
 .lastBlockimg:before{
   content: "";
@@ -179,7 +189,7 @@
       color: white;
     }
     &-music{
-      font-size: 59px;
+      font-size: 53px;
       color: white;
     }
   }
@@ -191,6 +201,8 @@
       display: inline-block;
       padding-bottom: 12px;
       padding-right: 10px;
+      margin-left: 35px;
+
     }
     &-legendary{
       font-size: 59px;
@@ -208,7 +220,18 @@
   position: absolute;
   top: 68%;
   left: 37%;
-  width: 60%;
+  font-family: GrafolitaScriptMedium;
+
+  &:after{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 1px;
+    background: #fff;
+    width: 582px;
+    left: -473px;
+    bottom: 48px;
+  }
 }
 .bottomtitle-bottomtext{
   margin-top: -45px;

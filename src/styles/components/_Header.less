@@ -1,3 +1,7 @@
+@font-face {
+  font-family: GrafolitaRegular;
+  src: url("../fonts/GrafolitaScript-Regular.otf");
+}
 .bg-header {
   -webkit-background-size:100%;
   background-size:cover;
@@ -5,10 +9,10 @@
   position: relative;
   &-img{
     img{
-      height:535px;
       width: 100%;
       position: absolute;
       top:40%;
+      max-height: 593px;
     }
   }
   .header-content {
@@ -27,31 +31,35 @@
     &-text{
       text-align: center;
       position: absolute;
-      top: 20%;
-      left: 5%;
+      top: 24%;
+      left: 9%;
+
       //width: inherit;
       &-main{
         font-size: 131px;
         //font-size: 8vw;
         color:white;
         margin: 0;
+        font-family: GrafolitaScriptMedium;
       }
       &-small{
         font-size: 20px;
         //font-size: 1.4vw;
         color: #f2eee2;
-        margin: 0.8vw 0 0;
+        margin-top:25px;
+        font-family:SansNav;
       }
     }
   }
   &-content-bottom{
     width: 100%;
     position: relative;
-    top: 74%;
+    top: 80%;
     text-align: center;
     &-text{
-      font-size: 16px;
+      font-size: 17px;
       color: #fff;
+      font-family: SansNav;
     }
     &-img{
       width: 165px;
